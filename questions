@@ -1,0 +1,23 @@
+1. https://github.com/nick98anderson/cmput-404-lab4
+
+2. The browser shows us a default django page that says "The install worked successfully! Congratulations!"
+   and links to django tutorials and documentation. 
+
+3. navigating to '/' gives us a 404 not found page and '/polls' shows us our index page we created and displays the text
+    "Hello, world. You're at the polls page".
+
+
+4. Migrations in django help us update our sql database we are using with our django app when we make changes to our models. 
+
+
+5. We see the polls we created and we can add and change them. it also gives us the options for authentication and authorizatiion for users and groups
+   We get custom models in the admin page by registering them to the django admin interface. 
+
+
+6. You're looking at question 38, You're looking at the results of question 38, You're voting on question 38 is what it displays respectivly. 
+   We get a 404 error if we put in a non integer. To change this we would allow our url parameters to take strings like this: 
+    path('<str:question_id>/results/', views.results, name='results') for example. 
+
+
+7. Can introduce bugs and break the application/website easier. changing the link url in area of the application can lead to the entire site breaking.
+
